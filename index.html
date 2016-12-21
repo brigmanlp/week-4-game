@@ -12,6 +12,9 @@
 
 	<!-- Game specific CSS file -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	 <!-- Added link to the jQuery Library --> <!--This Link is critical, without it the jQuery syntax WILL NOT WORK!!! -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	
 	<!-- Game javascript file -->
 	 <script type="text/javascript" src="assets/javascript/game.js"></script>
@@ -38,7 +41,9 @@
 
 		<!-- counter row -->
         <div class="row">
-        	<div class="col-sm-6"><h2><span id="rnumber"></span></h2> <!-- random score to match -->
+        	<div class="col-sm-6">
+			<h2>Random Score to match:</h2>
+        	<h2><span id="rnumber"></span></h2> <!-- random score to match -->
         	</div>
         	<div class="col-sm-6">
         	<p><span id="youLW"></span></p>
@@ -51,19 +56,19 @@
         <div class="row">    
             <div class="col-sm-3">
                 <h3>Crystal 1</h3>
-                <img class="crystalImg" id="crystal1" src="assets/images/crystal-1.jpg">
+                <img class="crystalImg" id="crystal1" src="assets/images/crystal-1.jpg" alt="crystal 1">
             </div>
             <div class="col-sm-3">
                 <h3>Crystal 2</h3>
-               	<img class="crystalImg" id="crystal2" src="assets/images/crystal-2.jpg">
+               	<img class="crystalImg" id="crystal2" src="assets/images/crystal-2.jpg" alt="crystal 2">
             </div>
             <div class="col-sm-3">
                 <h3>Crystal 3</h3>
-                <img class="crystalImg" id="crystal3" src="assets/images/crystal-3.jpg">
+                <img class="crystalImg" id="crystal3" src="assets/images/crystal-3.jpg" alt="crystal 3">
             </div>
             <div class="col-sm-3">
                 <h3>Crystal 4</h3>
-                <img class="crystalImg" id="crystal4" src="assets/images/crystal-4.jpg">
+                <img class="crystalImg" id="crystal4" src="assets/images/crystal-4.jpg" alt="crystal 4">
             </div>
         </div>
 
